@@ -27,4 +27,4 @@ print('It costs $', price_prompt,'per 1,000 prompt tokens')
 print('and $', price_completion, 'per 1,000 completion tokens.')
 
 # Get an average price per requests with  "p.get_price(model, type='both')". "both" is the default value for the "type" argument and 1000 is the default value for the "tokens" argument.
-print('The average value for request is', p.get_price(model, type='both'),'per 1,000 tokens (500 tokens in prompt and 500 pormpt in completion.')
+print('The average value for request is', p.get_price(model, type='both'),'per 1,000 tokens (500 tokens in prompt and 500 pormpt in completion).')
