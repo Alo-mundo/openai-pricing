@@ -54,3 +54,26 @@ print('and $', price_completion, 'per 1,000 completion tokens.')
 # Get an average price per requests with  "p.get_price(model, type='both')". "both" is the default value for the "type" argument and 1000 is the default value for the "tokens" argument.
 print('The average value for request is', p.get_price(model, type='both'),'per 1,000 tokens (500 tokens in prompt and 500 pormpt in completion.')
 ```
+
+Output:
+
+```shell
++--------------+-------------------+
+| Model name   | Technical name    |
+|--------------+-------------------|
+| GPT-4 32k    | gpt-4-32k         |
+| GPT-4        | gpt-4             |
+| GPT-3.5 16k  | gpt-3.5-turbo-16k |
+| GPT-3.5      | gpt-3.5-turbo     |
+| Davinci      | text-davinci-003  |
+| Curie        | text-curie-001    |
+| Babbage      | text-babbage-001  |
+| Ada          | text-ada-001      |
++--------------+-------------------+
+The model GPT-4 32k
+accepts up to 32768 tokens.
+It costs $ 0.06 per 1,000 prompt tokens
+and $ 0.12 per 1,000 completion tokens.
+The average value for request is 0.09 per 1,000 tokens (500 tokens in prompt and 500 pormpt in completion.
+```
+
