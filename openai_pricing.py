@@ -1,3 +1,9 @@
+"""
+Author: Pedro Guimarães Dupim
+Email: pedrodupim@icloud.com
+GitHub: @alo-mundo
+"""
+
 import requests
 from datetime import datetime
 import pandas as pd

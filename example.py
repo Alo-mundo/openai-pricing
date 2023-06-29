@@ -1,3 +1,9 @@
+"""
+Author: Pedro Guimarães Dupim
+Email: pedrodupim@icloud.com
+GitHub: @alo-mundo
+"""
+
 from openai_pricing import OpenAIPricing
 
 p = OpenAIPricing()
