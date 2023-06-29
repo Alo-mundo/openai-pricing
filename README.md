@@ -23,6 +23,8 @@ This list can be obtained by calling `OpenAIPricing.list_available_models()`.
 -----------
 
 ```shell
+from openai_pricing import OpenAIPricing
+
 p = OpenAIPricing()
 
 p.list_available_models()
