@@ -1,10 +1,8 @@
 # openai-pricing
-================
 
 This repository hosts an unofficial library for OpenAI pricing calculations. Its purpose is to simplify the prediction of costs when using GPT models. The data is obtained from https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator.
 
 ##  Library usage
------------------
 
 The module provides just one class, `OpneAIPricing`, which loads the pricing data when instanced and answers about max tokens and costs per tokens (prompt and completion tokens).
 
